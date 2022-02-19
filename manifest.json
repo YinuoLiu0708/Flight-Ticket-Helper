@@ -3,17 +3,10 @@
     "name": "Flight Ticket Helper",
     "description": "Calculte the total ticket price for your flight",
     "version": "1.0",
-    "icons": {
-        "16": "/images/icon.png",
-        "48": "/images/icon.png",
-        "128": "/images/icon.png"
+    "icons": {"128": "/images/icon.png"},
+    "browser_action":{
+        "default_icon":"/images/icon.png",
+        "default_popup": "popup.html"
     },
-    "page_action":{
-        "default_icon":{
-            "16":"/images/icon.png",
-            "48":"/images/icon.png",
-            "128":"/images/icon.png"
-        }
-    }
-
+    "permissions":["activateTab"]
 }
