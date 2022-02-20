@@ -101,6 +101,22 @@
   </head>
 
   <body>
+<p>click the button to see the hiding prices!</p>
+<button onclick="myFunction()">click here</button>
+<p id="demo"></p>
+<script>
+function myFunction(){
+	var x;
+	var r=confirm("To see the hiding prices?");
+	if (r==true){
+		x="Showing you hiding prices now";
+	}
+	else{
+		x="Not showing anything for noe";
+	}
+	document.getElementById("demo").innerHTML=x;
+}
+</script>
     <div class="modal-header">
       <h1 class="logo">
         <img class="logo-icon" src="images/icon.png"
